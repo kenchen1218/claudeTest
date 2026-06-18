@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/Users/kenchen/.claude/skills\")",
+      "Bash(cp \"c:/Users/kenchen/Desktop/claudeTest/.claude/skills/hello.md\" \"c:/Users/kenchen/.claude/skills/hello.md\")",
+      "Bash(cp \"c:/Users/kenchen/Desktop/claudeTest/.claude/skills/commit.md\" \"c:/Users/kenchen/.claude/skills/commit.md\")",
+      "Bash(rm \"c:/Users/kenchen/Desktop/claudeTest/.claude/skills/hello.md\" \"c:/Users/kenchen/Desktop/claudeTest/.claude/skills/commit.md\")",
+      "Bash(rm \"c:/Users/kenchen/.claude/skills/hello.md\" \"c:/Users/kenchen/.claude/skills/commit.md\")",
+      "Bash(python3:*)",
+      "Bash(where python3:*)",
+      "Bash(where python:*)",
+      "Read(//c/Users/kenchen/AppData/Local/Microsoft/WindowsApps/**)",
+      "Bash(curl --version)",
+      "Bash(bash:*)",
+      "Bash(curl -s \"https://wttr.in/Taipei?format=j1\")",
+      "WebSearch",
+      "Bash(mv 中華職棒 cpbl)",
+      "Bash(mv 天氣 weather)",
+      "Bash(mv 天氣統計 weather-stats)",
+      "Bash(mv 世足 world-cup)",
+      "Bash(mv 台股 taiwan-stock)",
+      "Bash(git:*)"
+    ]
+  }
+}
